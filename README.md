@@ -1,7 +1,7 @@
 # M.O.M. Sanitizer
+## Development Version (1.0.0.dev1)
 
-## Note
-Please use this repo to pull the most recent version.
+##### Note: Please clone this repository for most recent version.
 
 ## Overview
 For those with compliance requirements or who are concerned with minimizing exposure of personally identifiable information, we took it upon ourselves to build something that could modularly assist with obfuscating digital media. The efficiency of this command line tool is that you can move this application into your production environments and scan files in place, rather relocating any sensitive data. Then ideally remove this application from the environment and report your findings as this is not meant to be an ongoing solution for mitigating out of bounds PII.
