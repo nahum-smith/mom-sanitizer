@@ -4,7 +4,7 @@
 ##### Note: Please clone this repository for most recent version.
 
 ## Overview
-For those with compliance requirements or who are concerned with minimizing exposure of personally identifiable information, we took it upon ourselves to build something that could modularly assist with obfuscating digital media. The efficiency of this command line tool is that you can move this application into your production environments and scan files in place, rather relocating any sensitive data. Then ideally remove this application from the environment and report your findings as this is not meant to be an ongoing solution for mitigating out of bounds PII.
+For those with compliance requirements or who are concerned with minimizing exposure of personally identifiable information, we took it upon ourselves to build something that could (M)odularly assist with (O)bfuscating digital (M)edia. The efficiency of this command line tool is that you can move this application into your production environments and scan files in place, rather relocating any sensitive data. Then ideally remove this application from the environment and report your findings as this is not meant to be an ongoing solution for mitigating out of bounds PII.
 
 ### Description
 **mom_sanitizer** was created to assist with identifying any PII (Personally Identifiable Information) stored at rest in clear text, particularly when it isn't expected such as in log files. This application can scan your unencrypted data and identify potential PII.
