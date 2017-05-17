@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+from mom_sanitizer.sanitizer import run_program
+
+run_program()
