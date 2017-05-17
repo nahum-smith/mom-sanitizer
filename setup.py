@@ -5,20 +5,29 @@ try:
 except ImportError:
     from distutils.core import setup
 
-import markdown
+try
+    import markdown
+except ModuleNotFoundError:
+    md = False
+
 from codecs import open
 from os import path
 
-def readme():
+description = '''A regex solution to simplify searching for specific
+strings and offer the ability to have those masked (intended for log files
+ to maintain Policy compliance).'''
+
+def readme(md=True):
     here = path.abspath(path.dirname(__file__))
 
     with open(path.join(here, 'README.md'), encoding='utf-8') as f:
-        return markdown.markdown(f.read())
+        if md:
+            return markdown.markdown(f.read())
+        else:
+            return description
 
 config = {
-    'description': '''A regex solution to simplify searching for specific
-    strings and offer the ability to have those masked (intended for log files
-     to maintain Policy compliance).''',
+    'description': description,
     'long_description': readme(),
     'author': ['Nahum Smith', 'Shan Grant'],
     'url': 'https://github.com/nahum-smith/mom-sanitizer',
