@@ -5,7 +5,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-try
+try:
     import markdown
 except ModuleNotFoundError:
     md = False
