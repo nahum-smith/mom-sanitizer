@@ -29,7 +29,7 @@ $ sanitize *args
 ##### Cloning from Github Repository
 1. Clone this Repository
 2. Move into the project directory: `$ cd mom_sanitizer`
-3. Install distribution with: `$ python3 setup.py install`
+3. Install distribution with: `$ ./setup.py install`
 4. From anywhere on your system run program with: `$ sanitize *args`  
 
 ## Usage
