@@ -26,7 +26,7 @@ config = {
         'grantpka(REMOVEME)(AT)gmail(DOT)com'
         ],
     'version': '1.0.0.dev1',
-    'install_requires': ['nose'],
+    'install_requires': ['nose', 'markdown'],
     'classifiers': [
         'Operating System :: POSIX :: Linux :: Only'
         'Programming Language :: Python :: 3.6',
