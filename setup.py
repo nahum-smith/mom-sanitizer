@@ -32,7 +32,7 @@ config = {
     'long_description': readme(md),
     'author': ['Nahum Smith', 'Shan Grant'],
     'url': 'https://github.com/nahum-smith/mom-sanitizer',
-    'download_url': 'Where to download it.',
+    'download_url': 'https://pypi.python.org/pypi',
     'author_email': [
         'nahumsmith(REMOVEME)(AT)gmail(DOT)com',
         'grantpka(REMOVEME)(AT)gmail(DOT)com'
@@ -41,22 +41,16 @@ config = {
     'install_requires': ['nose', 'markdown'],
     'setup_requires': 'markdown',
     'classifiers': [
-        'Operating System :: POSIX :: Linux :: Only'
+        'Operating System :: POSIX :: Linux',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3 :: Only',
         'Intended Audience :: Information Technology',
         'Intended Audience :: System Administrators',
-        'Intended Audience :: System Auditors',
-        'Topic :: System :: Logging',
-        'Topic :: Security',
-        'Topic :: Security :: Obfuscation',
-        'Topic :: Security :: Policy Compliance',
-        'Topic :: Security :: NIST :: Special Publication 800-122',
-        'Topic :: System :: Directory :: Searching'
+        'Topic :: Security'
     ],
     'packages': ['mom_sanitizer'],
     'scripts': ['bin/sanitize'],
-    'name': 'M.O.M. Sanitizer'
+    'name': 'MOM_Sanitizer'
 }
 
 setup(**config)
