@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 try:
     from setuptools import setup, find_packages
 except ImportError:
@@ -19,7 +21,7 @@ config = {
      to maintain Policy compliance).''',
     'long_description': readme(),
     'author': ['Nahum Smith', 'Shan Grant'],
-    'url': 'https://github.com/nahum-smith/mom_sanitizer',
+    'url': 'https://github.com/nahum-smith/mom-sanitizer',
     'download_url': 'Where to download it.',
     'author_email': [
         'nahumsmith(REMOVEME)(AT)gmail(DOT)com',
@@ -27,6 +29,7 @@ config = {
         ],
     'version': '1.0.0.dev1',
     'install_requires': ['nose', 'markdown'],
+    'setup_requires': 'markdown',
     'classifiers': [
         'Operating System :: POSIX :: Linux :: Only'
         'Programming Language :: Python :: 3.6',
