@@ -19,11 +19,18 @@ We are always trying to improve this utility, so please post your suggestions.
 ## Installation
 **mom_sanitizer** requires Python 3.5 and the only supported platform is Linux32/64bits. Please note any difficulties encountered when using this application.
 
+##### using pip package  
+download compressed files from [M.O.M. Sanitizer on PyPi](include link here)  
+Unpack and install with:
 ```bash
 $ pip install mom_sanitizer
 $ sanitize *args
-
-```
+```  
+#### Cloning from Github Repository
+1. Clone this Repository
+2. Move into the project directory: `$ cd mom_sanitizer`
+3. Install distribution with: `$ python3 setup.py install`
+4. From anywhere on your system run program with: `$ sanitize *args`
 ## Usage
 
 ### Commands
