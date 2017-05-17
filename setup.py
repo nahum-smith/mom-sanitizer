@@ -7,6 +7,7 @@ except ImportError:
 
 try:
     import markdown
+    md = True
 except ModuleNotFoundError:
     md = False
 
@@ -17,7 +18,7 @@ description = '''A regex solution to simplify searching for specific
 strings and offer the ability to have those masked (intended for log files
  to maintain Policy compliance).'''
 
-def readme(md=True):
+def readme(markdown_bool):
     here = path.abspath(path.dirname(__file__))
 
     with open(path.join(here, 'README.md'), encoding='utf-8') as f:
