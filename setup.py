@@ -28,7 +28,7 @@ def readme(md=True):
 
 config = {
     'description': description,
-    'long_description': readme(),
+    'long_description': readme(md),
     'author': ['Nahum Smith', 'Shan Grant'],
     'url': 'https://github.com/nahum-smith/mom-sanitizer',
     'download_url': 'Where to download it.',
