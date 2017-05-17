@@ -21,7 +21,10 @@ config = {
     'author': ['Nahum Smith', 'Shan Grant'],
     'url': 'https://github.com/nahum-smith/mom_sanitizer',
     'download_url': 'Where to download it.',
-    'author_email': ['nahumsmith@gmail.com', 'grantpka@gmail.com'],
+    'author_email': [
+        'nahumsmith(REMOVEME)(AT)gmail(DOT)com',
+        'grantpka(REMOVEME)(AT)gmail(DOT)com'
+        ],
     'version': '1.0.0.dev1',
     'install_requires': ['nose'],
     'classifiers': [
