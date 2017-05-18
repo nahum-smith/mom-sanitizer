@@ -14,14 +14,14 @@ except ModuleNotFoundError:
 from codecs import open
 from os import path
 
-description = '''A regex solution to simplify searching for specific
-strings and offer the ability to have those masked (intended for log files
- to maintain Policy compliance).'''
+description = '''An expression search solution to assist with identifying
+sensitive strings and offer the ability to have those masked (initially created
+for log files sanitization to maintain various compliance requirements).'''
 
 def readme(markdown_bool):
     here = path.abspath(path.dirname(__file__))
 
-    with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+    with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
         if md:
             return markdown.markdown(f.read())
         else:
@@ -32,10 +32,10 @@ config = {
     'long_description': readme(md),
     'author': ['Nahum Smith', 'Shan Grant'],
     'url': 'https://github.com/nahum-smith/mom-sanitizer',
-    'download_url': 'https://pypi.python.org/pypi',
+    'download_url': 'https://github.com/nahum-smith/mom-sanitizer',
     'author_email': [
-        'nahumsmith(REMOVEME)(AT)gmail(DOT)com',
-        'grantpka(REMOVEME)(AT)gmail(DOT)com'
+        'nahumsmithREMOVEME(AT)gmail(DOT)com',
+        'shangrantREMOVEME(AT)gmail(DOT)com'
         ],
     'version': '1.0.0.dev1',
     'install_requires': ['nose', 'markdown'],
